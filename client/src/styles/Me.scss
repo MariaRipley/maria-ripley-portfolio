@@ -1,0 +1,56 @@
+@use "./variables.scss";
+
+.me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 100vh;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+    gap: 250px;
+  }
+
+  &__pic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  &__pic-img {
+    width: 150px;
+
+    @media screen and (min-width: 768px) {
+      width: 260px;
+    }
+  }
+
+  &__pic-credits {
+    font-size: 10px;
+    color: gray;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: variables.$secondary-font;
+    gap: 20px;
+  }
+}
+
+.info__title {
+  @media screen and (min-width: 768px) {
+    font-family: variables.$primary-font;
+    font-size: 60px;
+  }
+}
+
+.info__job {
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}

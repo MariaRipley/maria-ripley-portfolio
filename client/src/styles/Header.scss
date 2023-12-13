@@ -1,0 +1,8 @@
+@use "./variables.scss";
+
+.header {
+  background-color: variables.$bg-color;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
