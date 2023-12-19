@@ -21,7 +21,7 @@ function Portfolio() {
           web="https://mariaripley.github.io/smile-or-not/"
         ></Card>
         <Card
-          image="../images/color-flipper.JPG"
+          image="../../public/images/color-flipper.JPG"
           title="Color flipper"
           technology1="HTML5"
           technology2="CSS3"
@@ -30,13 +30,12 @@ function Portfolio() {
           web="https://mariaripley.github.io/color-flipper/"
         ></Card>
         <Card
-          image="../images/nav-bar-toggle.JPG"
-          title="Nav Bar Mobile and Desktop"
+          image="../../public/images/mobile-first.JPG"
+          title="Mobile First"
           technology1="HTML5"
           technology2="CSS3"
-          technology3="JavaScript"
-          github="https://github.com/MariaRipley/navbar-toggle"
-          web="https://mariaripley.github.io/navbar-toggle/"
+          github="https://github.com/MariaRipley/mobile-first-platzi-project"
+          web="https://mariaripley.github.io/mobile-first-platzi-project/"
         ></Card>
         <Card
           image="../images/review-bar.JPG"
