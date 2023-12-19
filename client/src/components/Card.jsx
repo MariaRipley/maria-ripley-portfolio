@@ -2,8 +2,7 @@
 import "../styles/Card.scss";
 
 //Icons
-// import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function Card(props) {
   return (

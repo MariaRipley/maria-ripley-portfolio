@@ -27,7 +27,7 @@
 .firefly::after {
   background: white;
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw variables.$primary-color;
+  box-shadow: 0 0 0vw 0vw variables.$neon-green;
   animation: drift ease alternate infinite, flash ease infinite;
 }
 
