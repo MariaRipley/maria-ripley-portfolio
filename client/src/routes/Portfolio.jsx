@@ -1,5 +1,5 @@
 //Styles
-import "../styles/Portfolio.scss"; 
+import "../styles/Portfolio.scss";
 
 //Components
 import Header from "../components/Header";
@@ -12,12 +12,13 @@ function Portfolio() {
       <div className="portfolio">
         {/* <h1 className="portfolio__title">PORTFOLIO</h1> */}
         <Card
-          image="../images/mobile-first-project.JPG"
-          title="Mobile first design"
+          image="../../public/images/smile-or-not.JPG"
+          title="Smile...or not"
           technology1="HTML5"
           technology2="CSS3"
-          github="https://github.com/MariaRipley/mobile-first-platzi-project"
-          web="https://mariaripley.github.io/mobile-first-platzi-project/"
+          technology3="JavaScript"
+          github="https://github.com/MariaRipley/smile-or-not"
+          web="https://mariaripley.github.io/smile-or-not/"
         ></Card>
         <Card
           image="../images/color-flipper.JPG"
