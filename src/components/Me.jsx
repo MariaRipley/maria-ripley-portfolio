@@ -7,7 +7,7 @@ function Me() {
       <div className="me__pic-container">
         <img
           className="me__pic-img"
-          src="../../public/images/pic.jpg"
+          src="/images/pic.jpg"
           alt="Redhead with face into plants"
         />
         <p className="me__pic-credits">@frankflores pic</p>
