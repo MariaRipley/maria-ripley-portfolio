@@ -4,6 +4,7 @@ import "../styles/Portfolio.scss";
 //Components
 import Header from "../components/Header";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 
 function Portfolio() {
   return (
@@ -75,6 +76,7 @@ function Portfolio() {
           web="https://mariaripley.github.io/questions-and-answer/"
         ></Card>
       </div>
+      <Footer />
     </>
   );
 }

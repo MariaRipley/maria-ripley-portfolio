@@ -1,0 +1,14 @@
+@use "./variables.scss";
+
+.footer {
+  background-color: variables.$bg-color;
+  font-family: variables.$secondary-font;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+
+  &__info {
+    color: variables.$light-white;
+  }
+}

@@ -60,7 +60,9 @@
     cursor: pointer;
 
     :hover {
-      color: variables.$deep-purple;
+      background-color: variables.$deep-purple;
+      border-radius: 5px;
+      padding: 5px;
     }
   }
 }
