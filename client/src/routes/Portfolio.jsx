@@ -21,6 +21,15 @@ function Portfolio() {
           web="https://mariaripley.github.io/smile-or-not/"
         ></Card>
         <Card
+          image="../../public/images/gif-search-engine.JPG"
+          title="GIF Search Engine"
+          technology1="HTML5"
+          technology2="SCSS"
+          technology3="JavaScript"
+          github="https://github.com/MariaRipley/prueba-vite-gh-pages"
+          web="https://mariaripley.github.io/prueba-vite-gh-pages/"
+        ></Card>
+        <Card
           image="../../public/images/color-flipper.JPG"
           title="Color flipper"
           technology1="HTML5"
@@ -35,11 +44,12 @@ function Portfolio() {
           technology1="HTML5"
           technology2="CSS3"
           github="https://github.com/MariaRipley/mobile-first-platzi-project"
-          web="https://mariaripley.github.io/mobile-first-platzi-project/"
+          web="https://mariaripley.github.io/mobile-first-platzi-project/
+          "
         ></Card>
         <Card
-          image="../images/review-bar.JPG"
-          title="Nav Bar Mobile and Desktop"
+          image="../../public/images/review-slider.JPG"
+          title="Review Slider"
           technology1="HTML5"
           technology2="CSS3"
           technology3="JavaScript"
@@ -47,7 +57,7 @@ function Portfolio() {
           web="https://mariaripley.github.io/review-slider/"
         ></Card>
         <Card
-          image="../images/restaurant-menu.JPG"
+          image="../../public/images/restaurant-menu.JPG"
           title="Restaurant Menu"
           technology1="HTML5"
           technology2="CSS3"
@@ -56,7 +66,7 @@ function Portfolio() {
           web="https://mariaripley.github.io/restaurant-menu-project/"
         ></Card>
         <Card
-          image="../images/q-and-a.JPG"
+          image="../../public/images/faq.JPG"
           title="FAQ Page"
           technology1="HTML5"
           technology2="CSS3"
