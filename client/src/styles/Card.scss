@@ -45,16 +45,22 @@
   &__project {
     display: flex;
     gap: 10px;
-    font-size: 25px;
-
-    :hover {
-      color: variables.$deep-purple;
-    }
   }
 
   &__tech {
     color: white;
     display: flex;
     align-items: center;
+  }
+
+  &__link {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+    :hover {
+      color: variables.$deep-purple;
+    }
   }
 }

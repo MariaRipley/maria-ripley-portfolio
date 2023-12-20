@@ -6,6 +6,10 @@ import { FaGithubAlt } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
 function Card(props) {
+  const openLink = (url) => {
+    window.open(url, "_blank", "noopener noreferrer");
+  };
+
   return (
     <a
       className="card"
@@ -22,22 +26,12 @@ function Card(props) {
           <p className="card__tech">{props.technology3}</p>
         </div>
         <div className="card__project">
-          <a
-            className="card__link"
-            href={props.github}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <button className="card__link" onClick={() => openLink(props.github)}>
             <FaGithubAlt />
-          </a>
-          <a
-            className="card__link"
-            href={props.web}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </button>
+          <button className="card__link" onClick={() => openLink(props.web)}>
             <TbWorldWww />
-          </a>
+          </button>
         </div>
       </div>
     </a>
