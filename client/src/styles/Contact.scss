@@ -1,3 +1,31 @@
-* {
+@use "./variables.scss";
+
+.contact {
   color: white;
+  font-family: variables.$secondary-font;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__form-label {
+    margin-top: 10px;
+  }
+
+  &__form-input {
+    height: 30px;
+
+    &--message {
+      height: 100px;
+    }
+
+    &--submit {
+      margin-top: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
 }

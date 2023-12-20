@@ -20,7 +20,9 @@
   }
 
   &__pic-img {
-    width: 150px;
+    width: 200px;
+    box-shadow: 0px 4px 8px variables.$deep-purple;
+    border-radius: 5px;
 
     @media screen and (min-width: 768px) {
       width: 260px;
