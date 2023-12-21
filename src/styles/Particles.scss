@@ -1,4 +1,4 @@
-@use "./variables";
+@use './Variables';
 
 .firefly {
   position: fixed;
@@ -12,7 +12,7 @@
 }
 .firefly::before,
 .firefly::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;

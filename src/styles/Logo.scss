@@ -1,8 +1,8 @@
-@use "./variables";
-@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap");
+@use './Variables';
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
 
 .logo {
-  font-family: "Stick No Bills", sans-serif;
+  font-family: 'Stick No Bills', sans-serif;
   width: 30%;
   padding: 10px;
   color: variables.$neon-green;
