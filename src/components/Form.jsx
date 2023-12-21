@@ -1,5 +1,3 @@
-
-
 function Form() {
   return (
     <form
@@ -8,7 +6,6 @@ function Form() {
       method="POST"
       autoComplete="off"
       name="contact"
-      action="/contact"
     >
       <input type="hidden" name="form-name" value="contact" />
       <label className="contact__form-label">Name</label>
