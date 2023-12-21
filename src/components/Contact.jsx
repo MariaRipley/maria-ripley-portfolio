@@ -11,7 +11,6 @@ function Contact() {
         method="POST"
         autoComplete="off"
         name="contact"
-        action="/contact"
       >
         <label className="contact__form-label">Name</label>
         <input
