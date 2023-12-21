@@ -1,4 +1,4 @@
-@use "./variables";
+@use './Variables';
 
 .background {
   display: flex;
@@ -8,7 +8,7 @@
   color: white;
   padding-top: 40px;
   padding-bottom: 100px;
-  font-family: variables.$secondary-font;
+  font-family: Variables.$secondary-font;
 
   @media screen and (min-width: 768px) {
     width: 50%;

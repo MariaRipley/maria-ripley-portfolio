@@ -1,8 +1,8 @@
-@use "./variables";
+@use './Variables';
 
 .contact {
   color: white;
-  font-family: variables.$secondary-font;
+  font-family: Variables.$secondary-font;
 
   &__form {
     display: flex;
