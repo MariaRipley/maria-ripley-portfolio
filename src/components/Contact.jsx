@@ -2,7 +2,7 @@
 import "../styles/Contact.scss";
 
 //Components
-import Form from "./Form";
+import Form from "../routes/Form";
 import Footer from "./Footer";
 
 function Contact() {
