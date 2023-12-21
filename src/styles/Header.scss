@@ -1,7 +1,7 @@
-@use "./variables";
+@use './Variables';
 
 .header {
-  background-color: variables.$bg-color;
+  background-color: Variables.$bg-color;
   display: flex;
   height: 50px;
   align-items: center;
