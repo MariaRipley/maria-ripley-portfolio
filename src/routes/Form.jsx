@@ -6,6 +6,7 @@ function Form() {
       method="POST"
       autoComplete="off"
       name="contact"
+      value="contact"
     >
       <input type="hidden" name="form-name" value="contact" />
       <label className="contact__form-label">Name</label>
