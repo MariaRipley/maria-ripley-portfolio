@@ -21,7 +21,7 @@
 
   &__pic-img {
     width: 200px;
-    box-shadow: 0px 4px 8px variables.$deep-purple;
+    box-shadow: 0px 4px 8px Variables.$deep-purple;
     border-radius: 5px;
 
     @media screen and (min-width: 768px) {
@@ -39,14 +39,14 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
-    font-family: variables.$secondary-font;
+    font-family: Variables.$secondary-font;
     gap: 20px;
   }
 }
 
 .info__title {
   @media screen and (min-width: 768px) {
-    font-family: variables.$primary-font;
+    font-family: Variables.$primary-font;
     font-size: 60px;
   }
 }

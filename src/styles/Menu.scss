@@ -15,7 +15,7 @@
       display: block;
       width: 50%;
       height: 55vh;
-      background-color: variables.$light-purple;
+      background-color: Variables.$light-purple;
       opacity: 0.9;
       position: fixed;
       top: 50px;
@@ -45,9 +45,9 @@
 
   &__link {
     color: white;
-    font-family: variables.$secondary-font;
+    font-family: Variables.$secondary-font;
     &:hover {
-      color: variables.$neon-green;
+      color: Variables.$neon-green;
       transition: all 0.3s ease-in-out;
     }
   }

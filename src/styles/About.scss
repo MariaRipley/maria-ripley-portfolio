@@ -1,7 +1,7 @@
 @use './Variables';
 
 .about {
-  background-color: variables.$bg-color;
+  background-color: Variables.$bg-color;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,13 +1,13 @@
 @use './Variables';
 
 .portfolio {
-  font-family: variables.$secondary-font;
+  font-family: Variables.$secondary-font;
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   padding-top: 30px;
-  background-color: variables.$bg-color;
+  background-color: Variables.$bg-color;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
