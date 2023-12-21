@@ -1,14 +1,17 @@
-@use './Variables';
+@use "./Variables";
 
 .contact {
   color: white;
   font-family: Variables.$secondary-font;
+  text-align: center;
 
   &__form {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    text-align: start;
+    padding: 0 50px;
   }
 
   &__form-label {
