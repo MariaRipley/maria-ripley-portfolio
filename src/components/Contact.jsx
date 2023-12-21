@@ -11,13 +11,16 @@ function Contact() {
         method="POST"
         autoComplete="off"
         name="contact"
+        action="/contact"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <label className="contact__form-label">Name</label>
         <input
           className="contact__form-input"
           type="text"
           name="name"
           placeholder="Your name here..."
+          required
         />
 
         <label className="contact__form-label">Email</label>
@@ -26,6 +29,7 @@ function Contact() {
           type="email"
           name="email"
           placeholder="Your email here..."
+          required
         />
 
         <label className="contact__form-label">Message</label>
@@ -33,6 +37,7 @@ function Contact() {
           className="contact__form-input contact__form-input--message"
           name="message"
           placeholder="Your message here..."
+          required
         ></textarea>
 
         <input
