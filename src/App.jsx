@@ -1,5 +1,5 @@
 //Estilos
-import './styles/App.scss';
+// import './styles/App.scss';
 //Routes
 import { Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
