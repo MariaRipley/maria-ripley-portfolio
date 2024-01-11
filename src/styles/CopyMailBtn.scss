@@ -1,0 +1,15 @@
+@use "./Variables";
+
+.info__mail {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: Variables.$light-purple;
+
+  &:hover {
+    background-color: Variables.$deep-purple;
+    color: Variables.$light-white;
+    transition: 0.3s ease;
+  }
+}
