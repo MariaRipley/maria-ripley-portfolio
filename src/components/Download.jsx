@@ -2,11 +2,11 @@ import "../styles/Btn.scss";
 
 function Download() {
   const downloadFile = () => {
-    const fileUrl = "../assets/MariaRoblesSpanishResume.pdf";
+    const fileUrl = "../assets/MariaRoblesResume.pdf";
 
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "MariaRoblesSpanishResume.pdf";
+    link.download = "MariaRoblesResume.pdf";
     link.click();
   };
   return (
