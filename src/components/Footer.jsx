@@ -1,3 +1,7 @@
+//React
+import React from "react";
+import { NavLink } from "react-router-dom";
+
 //Styles
 import "../styles/Footer.scss";
 
@@ -5,10 +9,13 @@ function Footer() {
   return (
     <div className="footer">
       <p className="footer__info">
-        María Robles Web Developer | 2024 |{" "}
-        <a className="footer__info footer__info--link" href="">
+        roblesb.maria@gmail.com | 2024 |{" "}
+        <NavLink
+          to="/about#contact"
+          className="footer__info footer__info--link"
+        >
           Contact me
-        </a>
+        </NavLink>
       </p>
     </div>
   );

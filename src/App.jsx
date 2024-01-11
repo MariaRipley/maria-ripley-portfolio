@@ -4,9 +4,9 @@ import "./styles/App.scss";
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
-import Form from "./routes/Form";
 import Portfolio from "./routes/Portfolio";
 import Error from "./routes/Error";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Form />}></Route>
+        <Route path="/about#contact" element={<Contact />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
