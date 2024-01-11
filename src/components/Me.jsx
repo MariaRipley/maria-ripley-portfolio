@@ -1,14 +1,12 @@
 //React
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { useState } from "react";
+
 import { Toaster, toast } from "react-hot-toast";
 
 //Styles
 import "../styles/Me.scss";
 
 function Me() {
-  const [copiedText, setCopiedText] = useState(false);
-
   return (
     <div className="me">
       <div className="me__pic-container">
