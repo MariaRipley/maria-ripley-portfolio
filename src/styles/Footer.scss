@@ -1,4 +1,4 @@
-@use './Variables';
+@use "./Variables";
 
 .footer {
   background-color: Variables.$bg-color;
@@ -7,8 +7,15 @@
   height: 50px;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 
   &__info {
+    text-decoration: none;
     color: Variables.$light-white;
+
+    &--link {
+      cursor: pointer;
+      color: Variables.$light-purple;
+    }
   }
 }
