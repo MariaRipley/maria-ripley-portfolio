@@ -15,6 +15,7 @@ function Me() {
       <div className="me__info">
         <h1 className="info__title">María Robles</h1>
         <p className="info__job">Frontend Developer</p>
+        <p className="info__job">roblesb.maria@gmail.com</p>
       </div>
     </div>
   );
