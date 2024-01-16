@@ -10,6 +10,6 @@
   &:hover {
     background-color: Variables.$deep-purple;
     color: Variables.$light-white;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
   }
 }
