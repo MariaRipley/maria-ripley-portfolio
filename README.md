@@ -1,10 +1,10 @@
 # Maria Ripley Portfolio
 
-**English**
+## English
 
 This project is built using React and Vite, with Sass for styling. It serves as a personal portfolio showcasing my work and projects.
 
-## Project Structure
+### Project Structure
 
 - **dist:** Compiled project files.
 - **public:** Public assets.
@@ -17,7 +17,7 @@ This project is built using React and Vite, with Sass for styling. It serves as 
 - **README.md:** Project documentation (you are here).
 - **vite.config.js:** Vite configuration file.
 
-## Getting Started
+### Getting Started
 
 1. Clone the repository:
    git clone https://github.com/MariaRipley/maria-ripley-portfolio.git
@@ -31,18 +31,18 @@ This project is built using React and Vite, with Sass for styling. It serves as 
 4. Run the development server:
    npm run dev
 
-## Additional Information
+### Additional Information
 
 - For ESLint configuration, refer to .eslintrc.cjs.
 - Customize the Vite configuration in vite.config.js.
 - Explore and modify the source code in the src directory.
 - Public assets can be placed in the public directory.
 
-**Español**
+## Español
 
 Este proyecto está construido utilizando React y Vite, con Sass para los estilos. Sirve como un portafolio personal que muestra mi trabajo y proyectos.
 
-## Estructura del proyecto
+### Estructura del proyecto
 
 - dist: Archivos compilados del proyecto.
 - public: Activos públicos.
@@ -55,7 +55,7 @@ Este proyecto está construido utilizando React y Vite, con Sass para los estilo
 - README.md: Documentación del proyecto (estás aquí).
 - vite.config.js: Archivo de configuración de Vite.
 
-## Arranca el proyecto
+### Arranca el proyecto
 
 1. Clona el repositorio:
    git clone https://github.com/MariaRipley/maria-ripley-portfolio.git
@@ -69,7 +69,7 @@ Este proyecto está construido utilizando React y Vite, con Sass para los estilo
 4. Inicia el servidor de desarrollo:
    npm run dev
 
-## Infomación adicional
+### Infomación adicional
 
 - Para la configuración de ESLint, consulta .eslintrc.cjs.
 - Personaliza la configuración de Vite en vite.config.js.
