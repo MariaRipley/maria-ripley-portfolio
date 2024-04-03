@@ -70,6 +70,15 @@ function Portfolio() {
       github: "https://github.com/MariaRipley/questions-and-answer",
       web: "https://mariaripley.github.io/questions-and-answer/",
     },
+    {
+      image: "/images/task-manager.JPG",
+      title: "Task Manager",
+      technology1: "React.js",
+      technology2: "Node.js",
+      technology3: "Tailwind",
+      github: "https://github.com/MariaRipley/patient-manager.git",
+      web: "https://mariaripley.github.io/patient-manager/",
+    },
   ];
 
   return (
