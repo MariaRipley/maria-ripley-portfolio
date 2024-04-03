@@ -12,7 +12,7 @@ function CopyMailBtn() {
 
   return (
     <>
-      <CopyToClipboard text="roblesb.maria@gmail.com">
+      <CopyToClipboard text="mariaroblesberm@gmail.com">
         <button className="info__mail" onClick={handleCopyClick}>
           Copy my Email
         </button>
