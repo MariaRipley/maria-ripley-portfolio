@@ -6,7 +6,7 @@ function Download() {
 
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "MariaRoblesResume.pdf";
+    link.download = "MariaRoblesResumeCV.pdf";
     link.click();
   };
   return (
