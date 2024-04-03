@@ -2,7 +2,7 @@ import "../styles/Btn.scss";
 
 function Download() {
   const downloadFile = () => {
-    const fileUrl = "../assets/MariaRoblesResume.pdf";
+    const fileUrl = "../assets/MariaRoblesResumeCV.pdf";
 
     const link = document.createElement("a");
     link.href = fileUrl;
